@@ -1,20 +1,29 @@
 # GIT Y MARKDOWN
 
-Indice
-GIT
+## Indice:
 
-¿Qué es Git?
-¿Qué es un sistema de control de versiones?
-¿Para qué sirve Git?
-Características de Git
-Diferentes estados de un fichero Git
-10 Comandos basicos de Git
-MARKDOWN
-¿Qué es Markdown?
-¿Para qué sirve Markdown?
+## GIT
+
+1. ¿Qué es Git?
+
+2. ¿Qué es un sistema de control de versiones?
+
+3. ¿Para qué sirve Git?
+
+4. Características de Git
+
+5. Diferentes estados de un fichero Git
+
+6. 10 Comandos basicos de Git
+
+## MARKDOWN
+
+1. ¿Qué es Markdown?
+
+2. ¿Para qué sirve Markdown?
 
 
-GIT
+### GIT
 
 Git es un sistema de control de versiones distribuido, diseñado por Linus Torvalds. Está pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
 
@@ -23,7 +32,6 @@ Git es un sistema de control de versiones distribuido, diseñado por Linus Torva
 El SCV o VCS (por sus siglas en inglés) es un sistema que registra los cambios realizados sobre un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas llevar el historial del ciclo de vida de un proyecto, comparar cambios a lo largo del tiempo, ver quién los realizó o revertir el proyecto entero a un estado anterior.
 
 Cualquier tipo de archivo que se encuentre en un ordenador puede ponerse bajo control de versiones.
-
 
 ¿Para qué sirve Git?
 
@@ -92,10 +100,8 @@ Importante: Git commit guarda tus cambios solo localmente.
 7. Git push
 Después de confirmar los cambios (con git commit), lo siguiente que hay que hacer es enviar estos cambios al servidor remoto. Git push sube tus confirmaciones al repositorio remoto.
 
-
 8. Git pull
 El comando git pull se usa para obtener actualizaciones del repositorio remoto. Este comando es una combinación de git fetch y git merge, lo que significa que, cuando se usa git pull, se obtienen las actualizaciones del repositorio remoto (git fetch) e inmediatamente aplica los últimos cambios en su local (git merge). (En simples palabras, sirve para traer el repositorio remoto a tu repositorio local).
-
 
 9. Git revert
 Este se utiliza para deshacer los cambios que hemos hecho. Hay varias formas de deshacer los cambios, de forma local o remota (depende de lo que necesitemos), pero se deben usar estos comandos con cuidado para evitar eliminaciones no deseadas.
@@ -105,7 +111,7 @@ La herramienta git merge se utiliza para fusionar uno o más ramas dentro de la 
 
 Git merge básicamente integra su rama de características (feature branch) con todas sus confirmaciones en la rama dev (o master). Es importante recordar que primero se debe estar en la rama específica que se desea fusionar con la rama de características.
 
-MARKDOWN
+### MARKDOWN
 
 ¿Qué es Markdown?
 
@@ -114,4 +120,5 @@ Markdown nació como herramienta de conversión de texto plano a HTML. Markdown 
 ¿Para qué sirve Markdown?
 
 es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple. Este método te permitirá añadir formatos tales como negritas, cursivas o enlaces, utilizando simplemente texto plano, lo que hará de tu escritura algo más simple y eficiente al evitar distracciones.
+
 
